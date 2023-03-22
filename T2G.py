@@ -19,15 +19,15 @@ import openai
 import matplotlib.pyplot as plt
 colorama.init()
 
-response = requests.get("https://newsapi.org/v2/everything?q=crypto&apiKey=53cfa62aacb3433e89fdfbc25c7daf7a")
+response = requests.get("https://newsapi.org/v2/everything?q=crypto&apiKey=")
 data = json.loads(response.text)
-openai.api_key = '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'
+openai.api_key = ''
 all_articles = data['articles']
 
 
 client = discord.Client(intents=discord.Intents.all())
 tree = app_commands.CommandTree(client)
-client = commands.Bot(command_prefix='/', intents=discord.Intents.all(), application_id="1084530469284106240")
+client = commands.Bot(command_prefix='/', intents=discord.Intents.all(), application_id="")
 # Logging info
 logging.basicConfig(filename="assets/logs/log.txt", level=logging.INFO, format="%(asctime)s %(message)s")
 
