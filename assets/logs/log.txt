@@ -1,0 +1,1472 @@
+2023-03-16 13:21:59,412 logging in using static token
+2023-03-16 13:22:00,114 Shard ID None has connected to Gateway (Session ID: f6ca651851304b6f3226c211387247d2).
+2023-03-16 13:22:12,056 Command = clear ; Author = Garry ; Cleared = 10
+2023-03-16 13:22:12,246 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 386, in clear
+    await interaction.response.defer()
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-16 13:22:28,942 logging in using static token
+2023-03-16 13:22:29,766 Shard ID None has connected to Gateway (Session ID: b6f22ed7f5239f662b162e688635b93c).
+2023-03-16 13:22:48,596 Command = clear ; Author = Garry ; Cleared = 5
+2023-03-16 13:22:50,777 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 388, in clear
+    await interaction.followup.send(embed=embed)
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-16 13:23:19,632 logging in using static token
+2023-03-16 13:23:20,362 Shard ID None has connected to Gateway (Session ID: 850bc6ddb7e0d4d9cfc9d3baeddf5539).
+2023-03-16 13:23:31,409 Command = clear ; Author = Garry ; Cleared = 2
+2023-03-16 13:23:33,591 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 388, in clear
+    await interaction.followup.send(embed=embed)
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-16 13:25:23,479 logging in using static token
+2023-03-16 13:25:24,204 Shard ID None has connected to Gateway (Session ID: 874c8130492f27df2d50b3c09adf012b).
+2023-03-16 13:27:35,180 logging in using static token
+2023-03-16 13:27:35,877 Shard ID None has connected to Gateway (Session ID: 4b527ce3f48043f0c66c0ed9b5d8e347).
+2023-03-16 13:27:44,671 Command = clear ; Author = Garry ; Cleared = 2
+2023-03-16 13:27:46,847 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 388, in clear
+    await interaction.edit_original_response(embed=embed)
+  File "C:\Program Files\Lib\discord\interactions.py", line 464, in edit_original_response
+    data = await adapter.edit_original_interaction_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-16 15:00:38,704 logging in using static token
+2023-03-16 15:00:39,452 Shard ID None has connected to Gateway (Session ID: ecbf6eaef897a2df4c71dede66f30530).
+2023-03-16 15:03:01,795 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 387, in clear
+    await interaction.followup.send(embed=embed)
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-16 15:03:57,786 Command = gen ; Author = Garry ; Message = Ahoj, jak se m·ö?; Response = 
+Ahoj, dÏkuji, m·m se dob¯e! Jak se m·ö ty?
+2023-03-16 15:04:53,638 Command = gen ; Author = Garry ; Message = jak rychle usnout?; Response = 
+1. UvolnÏte se a uloûte se do pohodlnÈ polohy.
+
+2. Utlumte svÏtlo.
+
+3. ZapomeÚte na vöechny problÈmy a starosti na chvÌli a soust¯eÔte se na naprostÈ uvolnÏnÌ.
+
+4. UdÏlejte si t¯Ìminutovou rutinu relaxace, zhluboka se nadechnÏte, poËÌtejte do deseti, vizualizujte si, ûe jste v klidnÈm prost¯edÌ a p¯edstavujte si, ûe jste usÌnajÌcÌ.
+
+5. Pokud m·te potÌûe se usÌn·nÌm, doporuËuje se uûÌvat bylinnÈ p¯Ìpravky, jako je nap¯Ìklad melissa, pivoÚka, mate¯Ìdouöka nebo citronov· tr·va.
+
+6. Dokonale si vyËistÏte tÏlo a mysl pomocÌ dechov˝ch cviËenÌ nebo meditace.
+
+7. P¯ed usnutÌm vypijte sklenku teplÈho mlÈka nebo si dop¯ejte horkou van
+2023-03-16 22:07:34,247 logging in using static token
+2023-03-16 22:07:34,951 Shard ID None has connected to Gateway (Session ID: 892a453491e9b7f22f76f8f70f11df7b).
+2023-03-16 22:14:49,861 logging in using static token
+2023-03-16 22:14:50,720 Shard ID None has connected to Gateway (Session ID: 6e94dcd853afc08a2b99fd027d712a31).
+2023-03-16 22:16:10,242 Ignoring exception in command 'serverinfo'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 185, in serverinfo
+    if config.SERVER_INFO == True:
+       ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'assets.config' has no attribute 'SERVER_INFO'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'serverinfo' raised an exception: AttributeError: module 'assets.config' has no attribute 'SERVER_INFO'
+2023-03-16 22:16:43,742 Ignoring exception in command 'serverinfo'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 185, in serverinfo
+    if config.SERVER_INFO == True:
+       ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'assets.config' has no attribute 'SERVER_INFO'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'serverinfo' raised an exception: AttributeError: module 'assets.config' has no attribute 'SERVER_INFO'
+2023-03-16 22:17:01,955 logging in using static token
+2023-03-16 22:17:02,697 Shard ID None has connected to Gateway (Session ID: 29254bea5360a0747293dc94b7c74662).
+2023-03-16 22:17:24,466 logging in using static token
+2023-03-16 22:17:25,207 Shard ID None has connected to Gateway (Session ID: 24d136ef470af402def81732ae4d2f63).
+2023-03-16 22:17:42,480 logging in using static token
+2023-03-16 22:17:43,192 Shard ID None has connected to Gateway (Session ID: 443379197c882ea25a2d1ae8703c0cf8).
+2023-03-16 22:18:24,808 logging in using static token
+2023-03-16 22:18:25,584 Shard ID None has connected to Gateway (Session ID: 89dcdba1072bfb02f5ee3e846868d783).
+2023-03-16 22:38:26,586 logging in using static token
+2023-03-16 22:38:27,322 Shard ID None has connected to Gateway (Session ID: f7472590710ca8dd8dbf8f8c40093280).
+2023-03-16 22:38:37,769 logging in using static token
+2023-03-16 22:38:38,519 Shard ID None has connected to Gateway (Session ID: 93849fcd1e02b363ba174e28f9cc0236).
+2023-03-16 22:39:31,530 logging in using static token
+2023-03-16 22:39:32,291 Shard ID None has connected to Gateway (Session ID: d6679c7446a4becccd322571f0e56d9e).
+2023-03-17 09:57:22,984 logging in using static token
+2023-03-17 09:57:23,700 Shard ID None has connected to Gateway (Session ID: 86200f1dad8531477b10ee6d7216e89f).
+2023-03-17 09:57:32,541 Ignoring exception in command 'chad'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 535, in chad
+    if config.CHAD == True:
+       ^^^^^^^^^^^
+AttributeError: module 'assets.config' has no attribute 'CHAD'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'chad' raised an exception: AttributeError: module 'assets.config' has no attribute 'CHAD'
+2023-03-17 09:57:45,638 logging in using static token
+2023-03-17 09:57:46,396 Shard ID None has connected to Gateway (Session ID: a9c0b0f9743c96db57d006d8e01c5ef5).
+2023-03-17 09:59:49,314 logging in using static token
+2023-03-17 09:59:50,034 Shard ID None has connected to Gateway (Session ID: 3d9f6c4d9e66a50abb5374058fe624bb).
+2023-03-17 10:01:01,659 logging in using static token
+2023-03-17 10:01:02,405 Shard ID None has connected to Gateway (Session ID: e7ae20f58363d2588ec42841d80b2da9).
+2023-03-17 13:30:40,299 logging in using static token
+2023-03-17 13:30:41,039 Shard ID None has connected to Gateway (Session ID: f8e22cfe730f87a7e993e268692f6e24).
+2023-03-17 13:36:41,067 logging in using static token
+2023-03-17 13:36:41,771 Shard ID None has connected to Gateway (Session ID: 71762a2e372d08995fcdd4d6b384ec4b).
+2023-03-17 13:37:14,572 logging in using static token
+2023-03-17 13:37:15,327 Shard ID None has connected to Gateway (Session ID: 19c55182db4e073fc6decbfcd39e4500).
+2023-03-17 13:37:58,251 logging in using static token
+2023-03-17 13:37:58,977 Shard ID None has connected to Gateway (Session ID: c5993b3e882f86c7723ea2baa9264282).
+2023-03-17 13:39:23,348 logging in using static token
+2023-03-17 13:39:24,126 Shard ID None has connected to Gateway (Session ID: 2a0d0798089c0423df5a294162492c09).
+2023-03-17 13:44:44,177 Shard ID None has successfully RESUMED session 2a0d0798089c0423df5a294162492c09.
+2023-03-17 13:45:54,713 logging in using static token
+2023-03-17 13:45:55,415 Shard ID None has connected to Gateway (Session ID: 0dca4b8fd228f5d44dfe6cb61be3e3e9).
+2023-03-17 13:46:06,758 Ignoring exception in command 'promote'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 560, in star
+    role = discord.utils.get(1086268195549220904)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\utils.py", line 594, in get
+    else _get(iterable, **attrs)  # type: ignore
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\utils.py", line 494, in _get
+    for elem in iterable:
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 856, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'promote' raised an exception: TypeError: 'int' object is not iterable
+2023-03-17 13:48:25,335 logging in using static token
+2023-03-17 13:48:26,118 Shard ID None has connected to Gateway (Session ID: eec7ba58b29b979962af1c5129336ff1).
+2023-03-17 13:48:31,254 Ignoring exception in command 'promote'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 560, in star
+    role = discord.role(1086268195549220904)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 856, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'promote' raised an exception: TypeError: 'module' object is not callable
+2023-03-17 13:49:36,202 logging in using static token
+2023-03-17 13:49:37,068 Shard ID None has connected to Gateway (Session ID: f8f635c9bdc8a8cad2782dbde74195cc).
+2023-03-17 13:49:42,152 Ignoring exception in command 'promote'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 560, in star
+    role = discord.utils.get(user.server.roles, name="Promoted")
+                             ^^^^^^^^^^^
+AttributeError: 'Member' object has no attribute 'server'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'promote' raised an exception: AttributeError: 'Member' object has no attribute 'server'
+2023-03-17 13:51:14,433 logging in using static token
+2023-03-17 13:51:15,230 Shard ID None has connected to Gateway (Session ID: ae5fa1eff82b4f088fefce16f3a27343).
+2023-03-17 13:52:12,354 logging in using static token
+2023-03-17 13:52:13,155 Shard ID None has connected to Gateway (Session ID: c25294b64d007c4da76e543026718653).
+2023-03-17 13:52:19,770 Ignoring exception in command 'promote'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 565, in star
+    await user.add_roles(role)
+  File "C:\Program Files\Lib\discord\member.py", line 1044, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+                                 ^^^^^^^
+AttributeError: 'int' object has no attribute 'id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'promote' raised an exception: AttributeError: 'int' object has no attribute 'id'
+2023-03-17 13:53:02,755 logging in using static token
+2023-03-17 13:53:03,390 Shard ID None has connected to Gateway (Session ID: e16a75f599ac0756f1985448e1221e43).
+2023-03-17 13:53:14,088 Ignoring exception in command 'promote'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 565, in star
+    await user.add_roles(1086268195549220904)
+  File "C:\Program Files\Lib\discord\member.py", line 1044, in add_roles
+    await req(guild_id, user_id, role.id, reason=reason)
+                                 ^^^^^^^
+AttributeError: 'int' object has no attribute 'id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'promote' raised an exception: AttributeError: 'int' object has no attribute 'id'
+2023-03-17 18:46:22,600 logging in using static token
+2023-03-17 18:46:23,374 Shard ID None has connected to Gateway (Session ID: 22b04441869d07027bebe6fd6a13ee39).
+2023-03-17 18:48:21,841 logging in using static token
+2023-03-17 18:48:22,702 Shard ID None has connected to Gateway (Session ID: 885e3ee4c1ad44a56ce814e300d8bba7).
+2023-03-17 18:48:39,873 Command = gen ; Author = Garry ; Message = hi; Response = 
+sase
+
+Hi! How can I help you?
+2023-03-17 18:50:46,862 logging in using static token
+2023-03-17 18:50:47,670 Shard ID None has connected to Gateway (Session ID: 0956d2cabe161a4c643edbd59ebbea87).
+2023-03-17 18:51:15,235 logging in using static token
+2023-03-17 18:51:15,957 Shard ID None has connected to Gateway (Session ID: 4a6a5f987b831b880705abc8ca78feab).
+2023-03-17 18:52:22,323 logging in using static token
+2023-03-17 18:52:23,023 Shard ID None has connected to Gateway (Session ID: c8ca0fd0f41dcfdfb257786a18adb740).
+2023-03-17 19:20:22,941 logging in using static token
+2023-03-17 19:20:23,694 Shard ID None has connected to Gateway (Session ID: e0f9f80baebf0f83bead5940197eabf4).
+2023-03-17 19:20:30,014 Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "broadcast" is not found
+2023-03-17 19:20:36,809 Ignoring exception in command 'broadcast'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 470, in broadcast
+    if interaction.user.guild_permissions.administrator:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'guild_permissions'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'broadcast' raised an exception: AttributeError: 'User' object has no attribute 'guild_permissions'
+2023-03-18 09:36:26,454 logging in using static token
+2023-03-18 09:36:27,256 Shard ID None has connected to Gateway (Session ID: fea85e999f28bf3a4d826f1b401479bf).
+2023-03-18 09:40:35,950 logging in using static token
+2023-03-18 09:40:36,670 Shard ID None has connected to Gateway (Session ID: 6fa9a5ae9920fc43ab9729051467e582).
+2023-03-18 11:11:33,350 logging in using static token
+2023-03-18 11:11:34,103 Shard ID None has connected to Gateway (Session ID: 2d58788fb6d934306c4234ce828e85f9).
+2023-03-18 11:11:47,393 Command = gen ; Author = Garry ; Message = ahoj; Response = 
+Hello! How are you?
+2023-03-18 14:04:41,993 Shard ID None has successfully RESUMED session 2d58788fb6d934306c4234ce828e85f9.
+2023-03-18 14:21:42,109 Shard ID None has successfully RESUMED session 2d58788fb6d934306c4234ce828e85f9.
+2023-03-18 19:50:36,585 logging in using static token
+2023-03-18 19:50:37,430 Shard ID None has connected to Gateway (Session ID: 5104e15e6d86457b6a7d574f2ebef29b).
+2023-03-18 22:50:27,550 logging in using static token
+2023-03-18 22:50:28,307 Shard ID None has connected to Gateway (Session ID: 3775f0ad47f33d812dcaa36af80e0f42).
+2023-03-18 22:51:04,821 logging in using static token
+2023-03-18 22:51:05,580 Shard ID None has connected to Gateway (Session ID: 04a2320e6de0af54454034043739fd1e).
+2023-03-18 22:52:43,742 logging in using static token
+2023-03-18 22:52:44,471 Shard ID None has connected to Gateway (Session ID: b0792fad377f9411ebd819a4c7c12a92).
+2023-03-18 22:55:13,115 logging in using static token
+2023-03-18 22:55:13,806 Shard ID None has connected to Gateway (Session ID: 796cbba508740ae91e259eeed57e55b8).
+2023-03-18 22:56:39,233 logging in using static token
+2023-03-18 22:56:39,946 Shard ID None has connected to Gateway (Session ID: 38d62c5c1cb8a9cec650b72c1c7591a7).
+2023-03-18 23:05:40,893 logging in using static token
+2023-03-18 23:05:41,639 Shard ID None has connected to Gateway (Session ID: 9025b8e261d4c2f84e6ae7003a5a773e).
+2023-03-18 23:06:15,481 logging in using static token
+2023-03-18 23:06:16,178 Shard ID None has connected to Gateway (Session ID: 20c605770625a7d4449dba7b6e6b26c6).
+2023-03-18 23:09:41,264 logging in using static token
+2023-03-18 23:09:41,978 Shard ID None has connected to Gateway (Session ID: c4d95251c397379ed03546f9d9a14055).
+2023-03-18 23:10:16,076 logging in using static token
+2023-03-18 23:10:16,793 Shard ID None has connected to Gateway (Session ID: 978c9a3e9930918394186b97102aae1b).
+2023-03-19 09:52:42,510 logging in using static token
+2023-03-19 09:52:43,195 Shard ID None has connected to Gateway (Session ID: 9268728faf45f4d68f971cb8bcb735f9).
+2023-03-19 09:52:56,031 Command = gen ; Author = Garry ; Message = JakÈ lidi by chtÏl wolf of hustle d·t na blacklist?; Response = 
+Wolf of Wall Street obvykle blokuje lidi, kte¯Ì se dopouötÌ podvod˘, nevÏry, kr·deûÌ nebo jin˝ch nepovolen˝ch ËinnostÌ. TakÈ filtruje lidi, kte¯Ì podporujÌ tyto aktivity, pouûÌvajÌ nevhodn˝ jazyk nebo poruöujÌ autorsk· pr·va.
+2023-03-19 09:53:35,141 Command = gen ; Author = Garry ; Message = j· se ptal na wolf of hustle; Response = 
+Wolf of Wall Street je americk˝ komedi·lnÌ film z roku 2013, kter˝ se zab˝v· skuteËn˝m p¯ÌbÏhem Wall Street ˙spÏönÈho obchodnÌka Jordana Belforta a jeho akciovÈ brÛkerstvÌ Stratton Oakmont. Film byl natoËen reûisÈrem Martinem Scorsesem a hlavnÌ roli v nÏm hraje Leonardo DiCaprio. N·mÏt filmy se inspiruje stejnojmennou knihou, kterou Belfort napsal o sv˝ch z·ûitcÌch na Wall Street.
+2023-03-19 09:54:18,520 Command = gen ; Author = Garry ; Message = jakÈ lidi m·m d·t na blacklist?; Response = 
+Velmi nesnadnou ot·zkou. To, co je nÏkomu nelÌbivÈ, m˘ûe b˝t pro druhÈho v po¯·dku. UvÏdomujÌc si to, blacklist by mÏl b˝t pouûit pouze tehdy, kdyû je to nezbytnÈ. NÏkte¯Ì lidÈ, kterÈ byste mohli d·t na blacklist, by byli: lidÈ, kte¯Ì se dopouötÌ trestn˝ch Ëin˘, lidÈ, kte¯Ì öÌ¯Ì nepravdivou informaci, lidÈ, kte¯Ì podv·dÏjÌ, kr·deûÌ nebo öÌ¯Ì nespravedlnost, lidÈ, kte¯Ì se öÌ¯Ì ur·ûky nebo n·silÌ, a lidÈ, kte¯Ì zneuûÌvajÌ data. ObecnÏ lze ¯Ìci, ûe lidÈ, kte¯Ì poruöujÌ z·kony nebo jsou pro ostatnÌ ne˙ctivÌ a nesluönÌ, majÌ b˝t z blacklisu.
+2023-03-19 09:55:54,996 logging in using static token
+2023-03-19 09:55:55,734 Shard ID None has connected to Gateway (Session ID: d1f65d39647bf7ba5eb8496b791a925e).
+2023-03-19 09:56:13,842 Command = gen ; Author = Garry ; Message = jak se m·ö?; Response = 
+M·m se dob¯e, dÏkuji!
+2023-03-19 09:57:04,893 logging in using static token
+2023-03-19 09:57:05,656 Shard ID None has connected to Gateway (Session ID: 02f50f90428d07d6f77fed40b5ed920f).
+2023-03-19 09:57:56,718 Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    client.run(config.TOKEN)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    response = openai.Completion.create(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 09:58:06,726 Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    client.run(config.TOKEN)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    response = openai.Completion.create(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 09:58:12,873 logging in using static token
+2023-03-19 09:58:13,677 Shard ID None has connected to Gateway (Session ID: 90dd7889d6e533e5bcf30184fd101931).
+2023-03-19 09:58:35,878 Command = gen ; Author = Garry ; Message = jakÈ lidi m·m d·t na blacklist?; Response = 
+Nem˘ûeme V·m ¯Ìct, kterÈ konkrÈtnÌ osoby byste mÏli uvÈst na Ëernou listinu. Kaûd˝ ËlovÏk, se kter˝m m·te öpatnÈ zkuöenosti, by mÏl b˝t v·ûen a musÌte si b˝t jisti, ûe jeho jedn·nÌ p¯esahuje hranici toho, co je p¯ijatelnÈ. NaöÌm odpovÏdnostÌ je chr·nit naöe uûivatele, aù uû jde o spot¯ebitele nebo partnery.
+2023-03-19 13:06:59,831 Shard ID None has successfully RESUMED session 90dd7889d6e533e5bcf30184fd101931.
+2023-03-19 15:14:37,182 logging in using static token
+2023-03-19 15:14:38,017 Shard ID None has connected to Gateway (Session ID: 6371ffbc54b3cd8e5925aad9c9dea2d3).
+2023-03-19 15:14:45,480 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    async def gen(interaction: discord.Interaction, text: str):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-19 15:14:52,212 Command = gen ; Author = Garry ; Message = ahoj; Response = 
+Hello! How are you?
+2023-03-19 15:45:51,126 Shard ID None has successfully RESUMED session 90dd7889d6e533e5bcf30184fd101931.
+2023-03-19 16:02:38,243 logging in using static token
+2023-03-19 16:02:39,046 Shard ID None has connected to Gateway (Session ID: 979d6e2e97e2bf83b258017ca7803d9e).
+2023-03-19 16:21:47,891 Shard ID None has successfully RESUMED session 979d6e2e97e2bf83b258017ca7803d9e.
+2023-03-19 16:28:02,844 logging in using static token
+2023-03-19 16:28:03,664 Shard ID None has connected to Gateway (Session ID: 2ce0d0c30cc21e3aa5cc66d982631d69).
+2023-03-19 16:28:15,746 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    embed.add_field(name="\U0001f4ac**Reason**", value=reason)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-19 16:28:43,679 logging in using static token
+2023-03-19 16:28:44,441 Shard ID None has connected to Gateway (Session ID: 0ee6b4dda9dd365c0da4577a760db358).
+2023-03-19 16:28:55,262 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 150, in gen
+    await interaction.response.defer()
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-19 16:29:11,416 logging in using static token
+2023-03-19 16:29:12,296 Shard ID None has connected to Gateway (Session ID: 98faafb052a6191c1dc5a3a5c68da8b8).
+2023-03-19 16:29:20,371 Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:29:30,384 Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:29:37,972 logging in using static token
+2023-03-19 16:29:38,709 Shard ID None has connected to Gateway (Session ID: fc3eb679592c28ab0f6515a12f79b9c5).
+2023-03-19 16:29:40,386 Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:29:50,390 Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:29:59,432 Command = gen ; Author = Garry ; Message = ahoj, jak sem m·ö?; Response = 
+Ahoj, dob¯e. Douf·m, ûe se u tebe da¯Ì takÈ dob¯e.
+2023-03-19 16:30:00,393 Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:30:10,409 Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 741, in <module>
+    await interaction.response.send_message(embed=embed)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 132, in gen
+    embed.set_thumbnail(url=server.icon.url)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:30:14,373 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 141, in gen
+    else:
+        ^^
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\colorama\ansitowin32.py", line 205, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 22] Invalid argument
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: OSError: [Errno 22] Invalid argument
+2023-03-19 16:30:14,651 Shard ID None has successfully RESUMED session 90dd7889d6e533e5bcf30184fd101931.
+2023-03-19 16:30:14,802 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    embed.add_field(name="\U0001f4ac**Reason**", value=reason)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2023-03-19 16:30:14,821 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    embed.add_field(name="\U0001f4ac**Reason**", value=reason)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2023-03-19 16:30:32,494 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    embed.add_field(name="\U0001f4ac**Reason**", value=reason)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-19 16:31:11,044 Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 760, in <module>
+    client.run(config.TOKEN)
+  File "C:\Program Files\Lib\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+  File "C:\Program Files\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Program Files\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Program Files\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+  File "C:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 151, in gen
+    response = openai.Completion.create(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_resources\abstract\engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 217, in request
+    result = self.request_raw(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\openai\api_requestor.py", line 517, in request_raw
+    result = _thread_context.session.request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ätÏp·n\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files\Lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Program Files\Lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Lib\ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Lib\ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+
+2023-03-19 16:31:30,276 logging in using static token
+2023-03-19 16:31:31,015 Shard ID None has connected to Gateway (Session ID: 70351a054c5c0c5aa45eb0902d6da42e).
+2023-03-19 16:31:35,709 Ignoring exception in command 'gen'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 131, in gen
+    embed.add_field(name="\U0001f4ac**Reason**", value=reason)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\interactions.py", line 638, in defer
+    await adapter.create_interaction_response(
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'gen' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2023-03-19 16:31:52,137 Command = gen ; Author = Garry ; Message = dok·ûeö udÏlat Marketingov˝ pl·n pro investiËnÌ spoleËnost?; Response = 
+1. Identifikace cÌlovÈho trhu:
+Nejprve je d˘leûitÈ pochopit cÌlovou skupinu investiËnÌ spoleËnosti, nap¯Ìklad staröÌ lidÈ, st¯ednÌ t¯Ìda nebo zaËÌnajÌcÌ investo¯i. CÌlov˝ trh musÌ b˝t zohlednÏn p¯i vyhodnocenÌ moûnostÌ ozn·menÌ a mÏ¯enÌ ˙spÏchu.
+
+2. Definov·nÌ cÌl˘ a strategie:
+PotÈ musÌ b˝t nastaveny konkrÈtnÌ cÌle. MoûnÈ cÌle mohou b˝t zv˝öenÌ popt·vky po sluûb·ch spoleËnosti, zvyöov·nÌ trûeb, zv˝öenÌ poËtu nov˝ch investor˘ nebo sniûov·nÌ n·klad˘ na provoz. PotÈ musÌte vybrat strategii pro dosaûenÌ tÏchto cÌl˘.
+
+3. Definov·nÌ marketingov˝ch n·stroj˘:
+D·le se musÌ vybÌrat marketingovÈ n·stroje, kterÈ
+2023-03-19 16:38:26,884 logging in using static token
+2023-03-19 16:38:27,646 Shard ID None has connected to Gateway (Session ID: 6937380cd9de448ed11d39e8369805fe).
+2023-03-19 16:41:16,479 logging in using static token
+2023-03-19 16:41:17,244 Shard ID None has connected to Gateway (Session ID: 63489f88f36a2595315b17738105b450).
+2023-03-19 16:41:26,825 Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1221, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1125, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 't2gart' not found
+2023-03-19 16:44:27,090 logging in using static token
+2023-03-19 16:44:27,926 Shard ID None has connected to Gateway (Session ID: a1c1351d23a9d3f39c285c5a2d23a0d0).
+2023-03-19 16:44:32,379 Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1221, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1125, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 't2gart' not found
+2023-03-19 16:46:21,741 logging in using static token
+2023-03-19 16:46:22,449 Shard ID None has connected to Gateway (Session ID: aba89e6c0ecabfabe12576f2b94f84bf).
+2023-03-19 17:50:29,818 Shard ID None has successfully RESUMED session aba89e6c0ecabfabe12576f2b94f84bf.
+2023-03-19 18:01:59,439 Shard ID None has successfully RESUMED session 90dd7889d6e533e5bcf30184fd101931.
+2023-03-19 19:55:36,352 logging in using static token
+2023-03-19 19:55:37,125 Shard ID None has connected to Gateway (Session ID: eaf5e2751e76735327501394e0157a95).
+2023-03-20 17:23:10,642 logging in using static token
+2023-03-20 17:23:11,417 Shard ID None has connected to Gateway (Session ID: 8fd39ca4898be7734128bc2ccfd539e6).
+2023-03-20 17:23:13,428 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: on_ready() missing 1 required positional argument: 'ctx'
+2023-03-20 17:23:30,875 logging in using static token
+2023-03-20 17:23:31,689 Shard ID None has connected to Gateway (Session ID: 08e6b7e947e8e8b560b4b3fe4e5da243).
+2023-03-20 17:23:33,707 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: on_ready() missing 1 required positional argument: 'ctx'
+2023-03-20 17:24:28,012 logging in using static token
+2023-03-20 17:24:28,779 Shard ID None has connected to Gateway (Session ID: fdc7505c361b98c03a1ba93ba3c0d3e4).
+2023-03-20 17:24:31,192 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 52, in on_ready
+    count += 1
+    ^^^^^
+UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+2023-03-20 17:24:52,165 logging in using static token
+2023-03-20 17:24:52,893 Shard ID None has connected to Gateway (Session ID: f927e9f37d5f892929bbf8d3c4223f1a).
+2023-03-20 17:25:31,132 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 52, in on_ready
+    for each in all_articles:
+            ^^^^^
+UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+2023-03-20 17:25:38,969 logging in using static token
+2023-03-20 17:25:39,658 Shard ID None has connected to Gateway (Session ID: 38503fed230ea4de2ee45a1ae75333cb).
+2023-03-20 17:25:41,959 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 53, in on_ready
+    count += 1
+    ^^^^^
+UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+2023-03-20 17:25:59,025 logging in using static token
+2023-03-20 17:25:59,794 Shard ID None has connected to Gateway (Session ID: 43fb6e20ae2c87133ef9a29e98c650c9).
+2023-03-20 17:26:41,913 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 53, in on_ready
+    count += 1
+    ^^^^^
+UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
+2023-03-20 17:27:13,113 logging in using static token
+2023-03-20 17:27:13,879 Shard ID None has connected to Gateway (Session ID: 0462815731f559b2b5b835f5da4d695d).
+2023-03-20 17:27:19,177 logging in using static token
+2023-03-20 17:27:19,914 Shard ID None has connected to Gateway (Session ID: c8e3f6bfb89c008a52961bba25e04e21).
+2023-03-20 17:31:59,064 logging in using static token
+2023-03-20 17:31:59,734 Shard ID None has connected to Gateway (Session ID: 74016eb44d7761b11743642ddd517d62).
+2023-03-20 17:33:08,711 logging in using static token
+2023-03-20 17:33:09,458 Shard ID None has connected to Gateway (Session ID: b075415a71f1602a5be7c8c487d5ba29).
+2023-03-20 17:33:20,626 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 482, in clear
+    await interaction.followup.send(embed=embed)
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-20 17:45:21,070 logging in using static token
+2023-03-20 17:45:21,839 Shard ID None has connected to Gateway (Session ID: e35e5c7edde69af27e0200037d5b839d).
+2023-03-20 17:45:24,031 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 48, in on_ready
+    synced = await client.tree.sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'signal' defined in function 'signal'
+  In parameter 'CryptoorForex'
+    name: Command name is invalid
+  In parameter 'Chart'
+    name: Command name is invalid
+  In parameter 'SL'
+    name: Command name is invalid
+  In parameter 'TP'
+    name: Command name is invalid
+  In parameter 'TP2'
+    name: Command name is invalid
+  In parameter 'TP3'
+    name: Command name is invalid
+  In parameter 'EP'
+    name: Command name is invalid
+2023-03-20 17:45:52,062 logging in using static token
+2023-03-20 17:45:52,766 Shard ID None has connected to Gateway (Session ID: 320efc95171c0b75b301376ac91b9aa9).
+2023-03-20 17:45:54,989 Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 48, in on_ready
+    synced = await client.tree.sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1072, in sync
+    raise CommandSyncFailure(e, commands) from None
+discord.app_commands.errors.CommandSyncFailure: Failed to upload commands to Discord (HTTP status 400, error code 50035)
+In command 'signal' defined in function 'signal'
+  In parameter 'Chart'
+    name: Command name is invalid
+  In parameter 'SL'
+    name: Command name is invalid
+  In parameter 'TP'
+    name: Command name is invalid
+  In parameter 'TP2'
+    name: Command name is invalid
+  In parameter 'TP3'
+    name: Command name is invalid
+  In parameter 'EP'
+    name: Command name is invalid
+2023-03-20 17:53:19,670 logging in using static token
+2023-03-20 17:53:20,550 Shard ID None has connected to Gateway (Session ID: 60b569b412bf08e1f24406e8e06d0c3c).
+2023-03-20 17:56:10,602 logging in using static token
+2023-03-20 17:56:11,302 Shard ID None has connected to Gateway (Session ID: f0c21efb8369b13bdb9eaaf4054ca817).
+2023-03-20 17:57:12,995 logging in using static token
+2023-03-20 17:57:13,807 Shard ID None has connected to Gateway (Session ID: d7d60588ffbf732a840d788521b78a48).
+2023-03-20 18:08:18,534 logging in using static token
+2023-03-20 18:08:19,292 Shard ID None has connected to Gateway (Session ID: c73b9dda9357961a87ff285d33e8ff54).
+2023-03-20 18:08:30,543 Ignoring exception in command 'clear'
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 842, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ätÏp·n\OneDrive\Desktop\T2G\T2G.py", line 482, in clear
+    await interaction.followup.send(embed=embed)
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 1800, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Lib\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 867, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Lib\discord\app_commands\commands.py", line 860, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'clear' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+2023-03-20 18:10:09,188 logging in using static token
+2023-03-20 18:10:09,926 Shard ID None has connected to Gateway (Session ID: 064f37d0f2a71068ec9c702fb5b84024).
+2023-03-20 18:35:34,041 Shard ID None has successfully RESUMED session 064f37d0f2a71068ec9c702fb5b84024.
+2023-03-21 13:01:07,486 logging in using static token
+2023-03-21 13:01:08,196 Shard ID None has connected to Gateway (Session ID: fa6bf895b8bce4d489d28dc37d7aa281).
+2023-03-21 14:25:36,094 Shard ID None has successfully RESUMED session fa6bf895b8bce4d489d28dc37d7aa281.
+2023-03-21 15:24:56,727 Shard ID None has successfully RESUMED session fa6bf895b8bce4d489d28dc37d7aa281.
+2023-03-21 16:46:58,213 Shard ID None has successfully RESUMED session fa6bf895b8bce4d489d28dc37d7aa281.
+2023-03-21 17:59:07,743 logging in using static token
+2023-03-21 17:59:08,650 Shard ID None has connected to Gateway (Session ID: e66fdf9ae75ecac7650cd87f988bda9e).
+2023-03-21 18:59:43,080 Shard ID None has successfully RESUMED session e66fdf9ae75ecac7650cd87f988bda9e.
+2023-03-21 20:43:02,809 Shard ID None has successfully RESUMED session e66fdf9ae75ecac7650cd87f988bda9e.
+2023-03-21 21:20:27,914 Shard ID None has successfully RESUMED session e66fdf9ae75ecac7650cd87f988bda9e.
+2023-03-21 22:08:11,874 Shard ID None has successfully RESUMED session e66fdf9ae75ecac7650cd87f988bda9e.
